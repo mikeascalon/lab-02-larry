@@ -1,5 +1,5 @@
 'use strict';
-function question1 (){
+function askLocation (){
   let location = prompt('Do I live in California? Y or N');
   let locationAnswer = location.toUpperCase();
 
@@ -10,7 +10,7 @@ function question1 (){
   }
 }
 
-function question2 (){
+function askCode (){
   let code = prompt('Am I learning how to code? Y or N');
   let codeAnswer = code.toUpperCase();
 
@@ -21,7 +21,7 @@ function question2 (){
   }
 }
 
-function question3 (){
+function askPets (){
   let pet = prompt('Do I have any pets? Y or N');
   let petAnswer = pet.toUpperCase();
 
@@ -32,7 +32,7 @@ function question3 (){
   }
 }
 
-function question4 (){
+function askBuild (){
   let build = prompt('Have I ever helped build a home? Y or N');
   let buildAnswer = build.toUpperCase();
 
@@ -43,7 +43,7 @@ function question4 (){
   }
 }
 
-function question5 (){
+function askLanguage (){
   let language = prompt('Do I speak another language? Y or N');
   let languageAnswer = language.toUpperCase();
 
@@ -59,9 +59,9 @@ function getName(){
   alert('Thanks for taking the time to get to know me ' + userName + '. I would like to get to know you too.' );
   return userName;
 }
-question1();
-question2();
-question3();
-question4();
-question5();
+askLocation();
+askCode();
+askPets();
+askBuild();
+askLanguage();
 getName();
