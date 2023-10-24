@@ -1,0 +1,19 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: #1d3557;
+    color: #f1faee;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+p{
+    text-align: center;
+    font-size: 17px;
+    color:#1d3557;
+    font-weight: 400;
+}
+
