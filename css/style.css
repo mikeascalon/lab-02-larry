@@ -11,9 +11,21 @@ h1{
 }
 
 p{
-    text-align: center;
-    font-size: 17px;
+    
+    font-size: 18px;
     color:#1d3557;
-    font-weight: 400;
+    font-weight: 700;
+    margin: 15px 0 15px 15px;
 }
 
+
+ol{
+    list-style-type: decimal;
+    margin: 15px 45px;
+    
+  }  
+
+  ul{
+    list-style-type: circle;
+    margin: 15px  45px;
+  }
