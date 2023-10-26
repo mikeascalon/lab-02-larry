@@ -22,10 +22,35 @@ p{
 ol{
     list-style-type: decimal;
     margin: 15px 45px;
+    font-size: 16px;
     
   }  
 
   ul{
     list-style-type: circle;
     margin: 15px  45px;
+    font-size: 16px;
+    
+  }
+
+  .column{
+    display: flex;
+    justify-content: space-around;
+    color: #f1faee;
+    margin-top: 100px;
+  }
+
+  .col{
+    background-color: #1d3557;
+  }
+
+  .light{
+    color: #f1faee;
+  }
+
+  .list{
+    background: #457b9d;
+    margin-top: 150px;
+    padding: 20px;
+   
   }
